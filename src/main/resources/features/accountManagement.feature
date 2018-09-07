@@ -14,12 +14,6 @@ Scenario: Pay a money less than income
     Then I have income amount 800
     And my expense is 200
 
-Scenario: Pay a money greater than income
-    Given a user has 1000 for income
-    When I pay a money amount 1100
-    Then I have income amount 0
-    And my expense is 1100
-
 Scenario: Check current income
     Given a user has 1000 for income
     When I want to check my current income that is 1000

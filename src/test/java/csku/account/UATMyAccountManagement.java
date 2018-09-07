@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = {"classpath:features/accountManagement.feature"}
 )
 
-public class UATAccountManagement {
+public class UATMyAccountManagement {
 
 
 }
